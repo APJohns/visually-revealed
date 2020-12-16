@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Visually-Revealed",
+  "version": "1.0",
+  "description": "Reveals all elements with class 'visually-hidden' for checking values.",
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "browser_action": {
+    "default_icon": "icons/eye-off.svg"
+  },
+  "background": {
+    "scripts": ["visually-revealed.js"],
+    "persistent": false
+  }
+}
